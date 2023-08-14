@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import * as React from "react";
-import Header from "./components/Header";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
@@ -40,7 +39,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <Header />
         <div className={styles.center}>
           <Image
             className={styles.logo}
@@ -51,7 +49,6 @@ export default function Home() {
             priority
           />
         </div>
-
         <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
